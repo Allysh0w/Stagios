@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EstágioS</string>
+    <string name="contato">Entre em contato</string>
+    <string name="sobre">A Rerum Stúdio é uma empresa de desenvolvimento de games e aplicações mobile.</string>
+    <string name="versao">versão 1.3.2</string>
+    <string name="codigo_banner">ca-app-pub-7730117530490680/6759582450</string>
+    <string name="interstitial_banner">ca-app-pub-7730117530490680/8236315659</string>
+</resources>

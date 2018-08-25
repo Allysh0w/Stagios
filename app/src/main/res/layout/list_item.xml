@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Name Label -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/logoempresa"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/Cargo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <!-- Email label -->
+    <TextView
+        android:id="@+id/nomeEmpresaCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="sdasdasdasd"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/branco"/>
+
+    <!-- Mobile number label -->
+    <TextView
+        android:id="@+id/salario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Mobile: "
+        android:textColor="@color/branco"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="10dp"/>
+
+
+        <TextView
+            android:id="@+id/descricao"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            />
+
+        <TextView
+            android:id="@+id/requisitos"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/telefone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/periodoLetivo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/nomeEmpresa"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/cidade"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/estado"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/nomeEmpresaNoTelefone"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/logo_caminho"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="@color/branco"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+</LinearLayout>

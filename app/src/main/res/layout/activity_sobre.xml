@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.rerum.estagios.estagios.SobreActivity"
+    android:orientation="vertical"
+    android:background="@color/fundo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/versao"
+        android:textColor="@color/branco"
+        />
+
+
+        <!-- Imagem Título    -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sobreMensagem"
+                    android:text="@string/sobre"
+                    android:textColor="@color/branco"
+                    android:textSize="15dp"
+                    android:gravity="center_horizontal|left"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="70dp">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contato"
+                    android:background="@drawable/meubotao"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:id="@+id/contatoSobre"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:textColor="@color/branco"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+            </LinearLayout>
